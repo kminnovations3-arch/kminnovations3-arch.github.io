@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal File Reader</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/legal.css" />
+    <script>
+      try {
+        var saved = localStorage.getItem('ufr-theme')
+        var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <main class="page">
+      <h1>Universal File Reader</h1>
+      <p class="summary">
+        An Android app by Reaper that opens almost any file in one place: PDF, Word, Excel, PowerPoint, EPUB books,
+        text, code, pictures, audio and video. Your files are opened on your own device and never uploaded.
+      </p>
+      <ul>
+        <li><a href="/privacy.html">Privacy policy</a></li>
+      </ul>
+      <p>Contact: <strong>kminnovations3@gmail.com</strong></p>
+      <p>Not affiliated with Microsoft, Adobe or Google.</p>
+    </main>
+  </body>
+</html>
