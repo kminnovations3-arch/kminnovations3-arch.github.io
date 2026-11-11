@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaboom Commandos</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/legal.css" />
+    <script>
+      try {
+        var saved = localStorage.getItem('ufr-theme')
+        var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <main class="page">
+      <h1>Kaboom Commandos</h1>
+      <p class="summary">
+        A game for Android by KM Innovations. Lead a squad of commandos, call in tanks, helicopters, jets and artillery,
+        and bring down the enemy's forts one explosion at a time.
+      </p>
+      <ul>
+        <li><a href="/kaboom-commandos/privacy.html">Privacy policy</a></li>
+      </ul>
+      <p>Contact: <strong>kaboomcommandos.help@gmail.com</strong></p>
+    </main>
+  </body>
+</html>
